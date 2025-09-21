@@ -6,5 +6,6 @@ namespace ICT.PeopleCore.Interface.Employee
     public interface IEmployee
     {
         Task<ApiServiceResponse<IEnumerable<EmployeeReadEntity>>> GetEmployeesAsync();
+        Task<ApiServiceResponse<EmployeeReadEntity>> GetEmployeeAsync(int id);
     }
 }
