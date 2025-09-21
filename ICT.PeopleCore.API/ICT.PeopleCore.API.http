@@ -1,0 +1,6 @@
+@ICT.PeopleCore.API_HostAddress = http://localhost:5103
+
+GET {{ICT.PeopleCore.API_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
