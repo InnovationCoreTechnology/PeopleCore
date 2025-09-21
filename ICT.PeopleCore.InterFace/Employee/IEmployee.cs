@@ -1,9 +1,10 @@
-﻿using ICT.PeopleCore.Entity.Entity.ResponseEntity.Employee;
+﻿using ICT.PeopleCore.Entity.ApiServiceResponse;
+using ICT.PeopleCore.Entity.ResponseEntity.Employee;
 
-namespace ICT.PeopleCore.InterFace
+namespace ICT.PeopleCore.Interface.Employee
 {
     public interface IEmployee
     {
-        Task<EmployeeReadEntity> GetEmployeesAsync();
+        Task<ApiServiceResponse<IEnumerable<EmployeeReadEntity>>> GetEmployeesAsync();
     }
 }

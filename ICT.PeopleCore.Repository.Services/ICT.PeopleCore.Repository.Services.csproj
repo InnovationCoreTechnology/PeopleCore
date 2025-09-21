@@ -11,7 +11,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\ICT.PeopleCore.Interface\ICT.PeopleCore.Interface.csproj" />
     <ProjectReference Include="..\ICT.PeopleCore.Repository.Interface\ICT.PeopleCore.Repository.Interface.csproj" />
   </ItemGroup>
 

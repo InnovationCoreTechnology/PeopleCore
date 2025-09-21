@@ -1,8 +1,7 @@
-
-namespace ICT.PeopleCore.InterFace
+﻿namespace ICT.PeopleCore.Interface
 {
     public class Class1
     {
-    }
 
+    }
 }

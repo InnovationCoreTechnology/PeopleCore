@@ -1,4 +1,4 @@
-﻿namespace ICT.PeopleCore.Entity.Entity.ResponseEntity.Employee
+﻿namespace ICT.PeopleCore.Entity.ResponseEntity.Employee
 {
     public class EmployeeReadEntity
     {
