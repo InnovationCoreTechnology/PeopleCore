@@ -13,11 +13,11 @@ namespace ICT.PeopleCore.Services.EmployeeServices
             _employeeRepository = employeeRepository;
         }
 
-        public Task<ApiServiceResponse<EmployeeReadEntity>> GetEmployeeAsync(int id)
+        public async Task<ApiServiceResponse<EmployeeReadEntity>> GetEmployeeAsync(int id)
         {
             var employeeReadEntity = await _employeeRepository.GetEmployeeAsync(id);
 
-            if (!employeeReadEntity.Any())
+            if (employeeReadEntity == null)
                 return ApiServiceResponse<EmployeeReadEntity>.FailureResponse("0001", "Error");
 
             return ApiServiceResponse<EmployeeReadEntity>.SuccessResponse(employeeReadEntity,
