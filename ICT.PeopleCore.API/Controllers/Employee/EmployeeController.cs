@@ -14,5 +14,13 @@ namespace ICT.PeopleCore.API.Controllers.Employee
             var result = await employeesService.GetEmployeesAsync();
             return Ok(result);
         }
+
+        [HttpGet("get-by-id/{id}")]
+        public async Task<IActionResult> GetEmployeeAsync(int id)
+        {
+            var employeesService = HttpContext.RequestServices.GetService<IEmployee>();
+            var result = await employeesService.GetEmployeeAsync(id);
+            return Ok(result);
+        }
     }
 }
