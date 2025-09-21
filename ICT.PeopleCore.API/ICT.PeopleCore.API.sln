@@ -1,9 +1,19 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.14.36511.14 d17.14
+VisualStudioVersion = 17.14.36511.14
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ICT.PeopleCore.API", "ICT.PeopleCore.API.csproj", "{DAF99093-F862-442C-82EA-4FF18563C933}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ICT.PeopleCore.Entity", "..\ICT.PeopleCore.Entity\ICT.PeopleCore.Entity.csproj", "{AD5D0E17-D5C2-4379-8051-D1C38D1FC231}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ICT.PeopleCore.InterFace", "..\ICT.PeopleCore.InterFace\ICT.PeopleCore.InterFace.csproj", "{5F94EDD7-C2D8-4650-8832-06A9BBD83B4B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ICT.PeopleCore.InterFace.Service", "..\ICT.PeopleCore.InterFace.Service\ICT.PeopleCore.InterFace.Service.csproj", "{F5AB8E7E-F1BC-4EBC-81D3-75E75E54B491}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ICT.PeopleCore.Repositore.InterFace", "..\ICT.PeopleCore.Repositore.InterFace\ICT.PeopleCore.Repositore.InterFace.csproj", "{D74E4361-763B-4922-B819-639C152F5C26}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ICT.PeopleCore.Repositore.Service", "..\ICT.PeopleCore.Repositore.Service\ICT.PeopleCore.Repositore.Service.csproj", "{52DEA6FB-5FA0-4716-902C-F16AE4E02CE1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +25,26 @@ Global
 		{DAF99093-F862-442C-82EA-4FF18563C933}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DAF99093-F862-442C-82EA-4FF18563C933}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DAF99093-F862-442C-82EA-4FF18563C933}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AD5D0E17-D5C2-4379-8051-D1C38D1FC231}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AD5D0E17-D5C2-4379-8051-D1C38D1FC231}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AD5D0E17-D5C2-4379-8051-D1C38D1FC231}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AD5D0E17-D5C2-4379-8051-D1C38D1FC231}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5F94EDD7-C2D8-4650-8832-06A9BBD83B4B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5F94EDD7-C2D8-4650-8832-06A9BBD83B4B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5F94EDD7-C2D8-4650-8832-06A9BBD83B4B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5F94EDD7-C2D8-4650-8832-06A9BBD83B4B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F5AB8E7E-F1BC-4EBC-81D3-75E75E54B491}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F5AB8E7E-F1BC-4EBC-81D3-75E75E54B491}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F5AB8E7E-F1BC-4EBC-81D3-75E75E54B491}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F5AB8E7E-F1BC-4EBC-81D3-75E75E54B491}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D74E4361-763B-4922-B819-639C152F5C26}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D74E4361-763B-4922-B819-639C152F5C26}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D74E4361-763B-4922-B819-639C152F5C26}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D74E4361-763B-4922-B819-639C152F5C26}.Release|Any CPU.Build.0 = Release|Any CPU
+		{52DEA6FB-5FA0-4716-902C-F16AE4E02CE1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{52DEA6FB-5FA0-4716-902C-F16AE4E02CE1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{52DEA6FB-5FA0-4716-902C-F16AE4E02CE1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{52DEA6FB-5FA0-4716-902C-F16AE4E02CE1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
