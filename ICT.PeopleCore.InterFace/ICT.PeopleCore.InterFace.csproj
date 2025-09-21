@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <TargetFramework>net9.0-windows</TargetFramework>
@@ -6,5 +6,9 @@
     <UseWPF>true</UseWPF>
     <ImplicitUsings>enable</ImplicitUsings>
   </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ICT.PeopleCore.Entity\ICT.PeopleCore.Entity.csproj" />
+  </ItemGroup>
 
 </Project>

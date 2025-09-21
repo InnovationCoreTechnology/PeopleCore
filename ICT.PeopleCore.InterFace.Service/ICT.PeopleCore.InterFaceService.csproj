@@ -6,4 +6,8 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\ICT.PeopleCore.InterFace\ICT.PeopleCore.InterFace.csproj" />
+  </ItemGroup>
+
 </Project>
